@@ -1,0 +1,60 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Молочные продукты",
+      "description": "Молочные продукты животного происхождения"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Мясные полуфабрикаты",
+      "description": "Замороженные мясные полуфабрикаты (птица, говядина, свинина)"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "бакалея",
+      "description": "Сухие съестные товары"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Хлебобулочные изделия",
+      "description": "Хлеб, пироги, булочки и пр."
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Молоко 2,5",
+      "description": "Молоко жирностью 2,5%",
+      "image": "",
+      "category": 1,
+      "price": 50,
+      "date_create": "2023-09-05",
+      "date_last_change": "2023-09-05"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Сосиски детские (охлажденные)",
+      "description": "Сосиски из свинины и говядины для питания детей старше 3-х лет",
+      "image": "",
+      "category": 2,
+      "price": 300,
+      "date_create": "2023-09-05",
+      "date_last_change": "2023-09-05"
+    }
+  }
+]
